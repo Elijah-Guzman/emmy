@@ -16,7 +16,7 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> EMMYS_ARMOR_TAB = CREATIVE_MODE_TAB.register("emmys_armor_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CURSED_EMERALD.get()))
-                    .title(Component.translatable("creativetab.emmys.emmys_armor"))
+                    .title(Component.translatable("creativetab.emmys.emmys_armor_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.CURSED_EMERALD);
                         output.accept(ModItems.EMERALD_SWORD);

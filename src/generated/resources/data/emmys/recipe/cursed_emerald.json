@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "pattern": [
+    "ERE",
+    "RSR",
+    "ERE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emmys:cursed_emerald"
+  }
+}
