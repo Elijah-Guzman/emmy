@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cursed_emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emmys:cursed_emerald"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "emmys:emerald_pickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cursed_emerald"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "emmys:emerald_pickaxe"
+    ]
+  }
+}

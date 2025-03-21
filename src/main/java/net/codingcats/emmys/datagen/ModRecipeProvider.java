@@ -33,5 +33,84 @@ public class ModRecipeProvider extends RecipeProvider {
                 .define('G', Items.GHAST_TEAR)
                 .define('O', Items.OBSIDIAN)
                 .unlockedBy("has_ghast_tear", has(Items.GHAST_TEAR)).save(recipeOutput);
+        //Swords
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_SWORD)
+                .pattern("E")
+                .pattern("E")
+                .pattern("S")
+                .define('E', ModItems.CURSED_EMERALD.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_cursed_emerald", has(ModItems.CURSED_EMERALD)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.OBSIDIAN_SWORD)
+                .pattern("O")
+                .pattern("C")
+                .pattern("B")
+                .define('O', Items.OBSIDIAN)
+                .define('C', Items.CRYING_OBSIDIAN)
+                .define('B', Items.BLAZE_ROD)
+                .unlockedBy("has_crying_obsidian", has(Items.CRYING_OBSIDIAN)).save(recipeOutput);
+        //Pickaxes
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_PICKAXE)
+                .pattern("EEE")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('E', ModItems.CURSED_EMERALD.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_cursed_emerald", has(ModItems.CURSED_EMERALD)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.OBSIDIAN_PICKAXE)
+                .pattern("OCO")
+                .pattern(" B ")
+                .pattern(" B ")
+                .define('O', Items.OBSIDIAN)
+                .define('C', Items.CRYING_OBSIDIAN)
+                .define('B', Items.BLAZE_ROD)
+                .unlockedBy("has_crying_obsidian", has(Items.CRYING_OBSIDIAN)).save(recipeOutput);
+        //Axes
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_AXE)
+                .pattern("EE")
+                .pattern("ES")
+                .pattern(" S")
+                .define('E', ModItems.CURSED_EMERALD.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_cursed_emerald", has(ModItems.CURSED_EMERALD)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.OBSIDIAN_AXE)
+                .pattern("CO")
+                .pattern("OB")
+                .pattern(" B")
+                .define('O', Items.OBSIDIAN)
+                .define('C', Items.CRYING_OBSIDIAN)
+                .define('B', Items.BLAZE_ROD)
+                .unlockedBy("has_crying_obsidian", has(Items.CRYING_OBSIDIAN)).save(recipeOutput);
+        //Shovels
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_SHOVEL)
+                .pattern("E")
+                .pattern("S")
+                .pattern("S")
+                .define('E', ModItems.CURSED_EMERALD.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_cursed_emerald", has(ModItems.CURSED_EMERALD)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.OBSIDIAN_SHOVEL)
+                .pattern("C")
+                .pattern("B")
+                .pattern("B")
+                .define('C', Items.CRYING_OBSIDIAN)
+                .define('B', Items.BLAZE_ROD)
+                .unlockedBy("has_crying_obsidian", has(Items.CRYING_OBSIDIAN)).save(recipeOutput);
+        //hoes
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.EMERALD_HOE)
+                .pattern("EE")
+                .pattern("S ")
+                .pattern("S ")
+                .define('E', ModItems.CURSED_EMERALD.get())
+                .define('S', Items.STICK)
+                .unlockedBy("has_cursed_emerald", has(ModItems.CURSED_EMERALD)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.OBSIDIAN_HOE)
+                .pattern("CO")
+                .pattern("B ")
+                .pattern("B ")
+                .define('O', Items.OBSIDIAN)
+                .define('C', Items.CRYING_OBSIDIAN)
+                .define('B', Items.BLAZE_ROD)
+                .unlockedBy("has_crying_obsidian", has(Items.CRYING_OBSIDIAN)).save(recipeOutput);
     }
 }
