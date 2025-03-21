@@ -1,4 +1,15 @@
 {
   "item.emmys.cursed_emerald": "Cursed Emerald",
+  "item.emmys.emerald_sword": "Emerald Sword",
+  "item.emmys.emerald_pickaxe": "Emerald Pickaxe",
+  "item.emmys.emerald_axe": "Emerald Axe",
+  "item.emmys.emerald_shovel": "Emerald Shovel",
+  "item.emmys.emerald_hoe": "Emerald Hoe",
+  "item.emmys.obsidian_sword": "Obsidian Sword",
+  "item.emmys.obsidian_pickaxe": "Obsidian Pickaxe",
+  "item.emmys.obsidian_axe": "Obsidian Axe",
+  "item.emmys.obsidian_shovel": "Obsidian Shovel",
+  "item.emmys.obsidian_hoe": "Obsidian Hoe",
+
   "creativetab.emmys.emmys_armor_tab": "Emmys Armor and Tools"
 }

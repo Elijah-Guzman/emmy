@@ -14,15 +14,15 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItems.CURSED_EMERALD.get());
-        basicItem(ModItems.EMERALD_AXE.get());
-        basicItem(ModItems.EMERALD_HOE.get());
-        basicItem(ModItems.EMERALD_PICKAXE.get());
-        basicItem(ModItems.EMERALD_SHOVEL.get());
-        basicItem(ModItems.EMERALD_SWORD.get());
-        basicItem(ModItems.OBSIDIAN_AXE.get());
-        basicItem(ModItems.OBSIDIAN_HOE.get());
-        basicItem(ModItems.OBSIDIAN_PICKAXE.get());
-        basicItem(ModItems.OBSIDIAN_SHOVEL.get());
-        basicItem(ModItems.OBSIDIAN_SWORD.get());
+        handheldItem(ModItems.EMERALD_AXE.get());
+        handheldItem(ModItems.EMERALD_HOE.get());
+        handheldItem(ModItems.EMERALD_PICKAXE.get());
+        handheldItem(ModItems.EMERALD_SHOVEL.get());
+        handheldItem(ModItems.EMERALD_SWORD.get());
+        handheldItem(ModItems.OBSIDIAN_AXE.get());
+        handheldItem(ModItems.OBSIDIAN_HOE.get());
+        handheldItem(ModItems.OBSIDIAN_PICKAXE.get());
+        handheldItem(ModItems.OBSIDIAN_SHOVEL.get());
+        handheldItem(ModItems.OBSIDIAN_SWORD.get());
     }
 }
