@@ -1,5 +1,6 @@
 {
   "item.emmys.cursed_emerald": "Cursed Emerald",
+
   "item.emmys.emerald_sword": "Emerald Sword",
   "item.emmys.emerald_pickaxe": "Emerald Pickaxe",
   "item.emmys.emerald_axe": "Emerald Axe",
@@ -10,6 +11,15 @@
   "item.emmys.obsidian_axe": "Obsidian Axe",
   "item.emmys.obsidian_shovel": "Obsidian Shovel",
   "item.emmys.obsidian_hoe": "Obsidian Hoe",
+
+  "item.emmys.emerald_helmet": "Emerald Helmet",
+  "item.emmys.emerald_chestplate": "Emerald Chestplate",
+  "item.emmys.emerald_leggings": "Emerald Leggings",
+  "item.emmys.emerald_boots": "Emerald Boots",
+  "item.emmys.obsidian_helmet": "Obsidian Helmet",
+  "item.emmys.obsidian_chestplate": "Obsidian Chestplate",
+  "item.emmys.obsidian_leggings": "Obsidian Leggings",
+  "item.emmys.obsidian_boots": "Obsidian Boots",
 
   "creativetab.emmys.emmys_armor_tab": "Emmys Armor and Tools"
 }
