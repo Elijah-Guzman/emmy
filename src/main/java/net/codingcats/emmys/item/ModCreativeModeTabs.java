@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.emmys.emmys_armor_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.CURSED_EMERALD);
+
                         output.accept(ModItems.EMERALD_SWORD);
                         output.accept(ModItems.EMERALD_PICKAXE);
                         output.accept(ModItems.EMERALD_AXE);
@@ -29,6 +30,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.OBSIDIAN_AXE);
                         output.accept(ModItems.OBSIDIAN_SHOVEL);
                         output.accept(ModItems.OBSIDIAN_HOE);
+
+                        output.accept(ModItems.EMERALD_HELMET);
+                        output.accept(ModItems.EMERALD_CHESTPLATE);
+                        output.accept(ModItems.EMERALD_LEGGINGS);
+                        output.accept(ModItems.EMERALD_BOOTS);
+                        output.accept(ModItems.OBSIDIAN_HELMET);
+                        output.accept(ModItems.OBSIDIAN_CHESTPLATE);
+                        output.accept(ModItems.OBSIDIAN_LEGGINGS);
+                        output.accept(ModItems.OBSIDIAN_BOOTS);
                     }).build());
 
     public static void register(IEventBus eventBus) {

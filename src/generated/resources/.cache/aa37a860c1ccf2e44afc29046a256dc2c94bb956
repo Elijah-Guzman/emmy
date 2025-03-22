@@ -1,0 +1,5 @@
+// 1.21.1	2025-03-22T12:47:55.546911	Tags for minecraft:block mod id emmys
+da66d65a1e92f838a81f3c67afff6ae21a6d7411 data/emmys/tags/block/incorrect_for_emerald_tool.json
+b3ef2a51580ec97078e7a592943fe992573adf73 data/emmys/tags/block/incorrect_for_obsidian_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data/emmys/tags/block/needs_emerald_tool.json
+ec9d45863d667a40b57e21cf28591459e08f325e data/emmys/tags/block/needs_obsidian_tool.json

@@ -36,14 +36,14 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.EMERALD_HOE.get())
                 .add(ModItems.OBSIDIAN_HOE.get());
 
-        this.tag(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.EMERALD_HELMET.get())
-                .add(ModItems.EMERALD_CHESTPLATE.get())
-                .add(ModItems.EMERALD_LEGGINGS.get())
-                .add(ModItems.EMERALD_BOOTS.get())
-                .add(ModItems.OBSIDIAN_HELMET.get())
-                .add(ModItems.OBSIDIAN_CHESTPLATE.get())
-                .add(ModItems.OBSIDIAN_LEGGINGS.get())
-                .add(ModItems.OBSIDIAN_BOOTS.get());
+//        this.tag(ItemTags.TRIMMABLE_ARMOR)
+//                .add(ModItems.EMERALD_HELMET.get())
+//                .add(ModItems.EMERALD_CHESTPLATE.get())
+//                .add(ModItems.EMERALD_LEGGINGS.get())
+//                .add(ModItems.EMERALD_BOOTS.get())
+//                .add(ModItems.OBSIDIAN_HELMET.get())
+//                .add(ModItems.OBSIDIAN_CHESTPLATE.get())
+//                .add(ModItems.OBSIDIAN_LEGGINGS.get())
+//                .add(ModItems.OBSIDIAN_BOOTS.get());
     }
 }
