@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "O O",
+    "O O"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emmys:obsidian_leggings"
+  }
+}

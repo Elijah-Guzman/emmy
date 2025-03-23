@@ -1,5 +1,13 @@
-// 1.21.1	2025-03-22T12:47:55.5479108	Recipes
+// 1.21.1	2025-03-23T16:09:34.1125689	Recipes
+b131b3bca3282f95691c080743abef6ddf3a067b data/emmys/advancement/recipes/combat/emerald_boots.json
+dfba739cc4a35ca6fafe79377920ca21c24ddcf1 data/emmys/advancement/recipes/combat/emerald_chestplate.json
+eb27719a1f42fd5fc62abc4d212423fcd3be6d6a data/emmys/advancement/recipes/combat/emerald_helmet.json
+50b4f9f235b09fa73d224aa8b88908476d2d466c data/emmys/advancement/recipes/combat/emerald_leggings.json
 6e97c929b23d957c90182652c4ae545a77a8c3ba data/emmys/advancement/recipes/combat/emerald_sword.json
+94db4a141f322b40e83357710339d3c05499a82d data/emmys/advancement/recipes/combat/obsidian_boots.json
+e36d31abeb85a601476d234be71ff3f832ae6362 data/emmys/advancement/recipes/combat/obsidian_chestplate.json
+e22070532b2959133a2a1699747fb87f2390b659 data/emmys/advancement/recipes/combat/obsidian_helmet.json
+fdd7da67335216f7c1a9d32b5eca033d6a034a53 data/emmys/advancement/recipes/combat/obsidian_leggings.json
 f86622bc59784ccf0e2df692e534edb099ea39f0 data/emmys/advancement/recipes/combat/obsidian_sword.json
 0452ea5cf7c49d4c133bde0af806bd7206734f3a data/emmys/advancement/recipes/misc/cursed_emerald.json
 3990566dd66bd91993db8924ce4e85fa3325e018 data/emmys/advancement/recipes/tools/emerald_axe.json
@@ -12,12 +20,20 @@ acd47b9ad6e8a495a01617dddf72b7883f88ffc9 data/emmys/advancement/recipes/tools/ob
 56b2919b39aaf7b4ba6d06885a36b88b2abb3a8f data/emmys/advancement/recipes/tools/obsidian_shovel.json
 69ad002d88c69184c054c35ecf18ba9e6853bf68 data/emmys/recipe/cursed_emerald.json
 7e0ae98f6275f11fa2f701e752ba1e150c188b7a data/emmys/recipe/emerald_axe.json
+f9f840b6cdb9172a0b939a42c02f3dd9128af8b5 data/emmys/recipe/emerald_boots.json
+f34b0b88e55cde958841bc21d27b7feef5a86e9e data/emmys/recipe/emerald_chestplate.json
+0eb224fa9f68c71f973b16bf1068d293953a35e2 data/emmys/recipe/emerald_helmet.json
 2b088bf2c687ef49e0aba078b990aadef41e38af data/emmys/recipe/emerald_hoe.json
+6390a5ad2deef2639547c7d6c7feb52949c8a7d6 data/emmys/recipe/emerald_leggings.json
 29ab2336d614834bfc9a129386c2b856039827dd data/emmys/recipe/emerald_pickaxe.json
 4b807a34604a5da0abf2e4c31df8ded0833f1076 data/emmys/recipe/emerald_shovel.json
 7cc45bb7edf379f73c7849edc2d5c6b04293450a data/emmys/recipe/emerald_sword.json
 3aeec0c058286bae6ae8d87a39c495aea0c75af2 data/emmys/recipe/obsidian_axe.json
+32b2d8f8e8d06a91a92dff9aaea6bdfe7d1ffa03 data/emmys/recipe/obsidian_boots.json
+ddc6d00defe27446000dd500fa498b0bff946ad8 data/emmys/recipe/obsidian_chestplate.json
+31e9466d900d34d9700881cada110a9f3177326e data/emmys/recipe/obsidian_helmet.json
 c04d8a29b4c4a2d212fbdf013b54679eaa6807a4 data/emmys/recipe/obsidian_hoe.json
+a952b47c2f16d86c64caa72da10bf86309b11baf data/emmys/recipe/obsidian_leggings.json
 6077169cb7e7a8bbbba9daf8b955fa235a64590d data/emmys/recipe/obsidian_pickaxe.json
 ea0d26b3a391feb35776972fbecd78d7b0e8756e data/emmys/recipe/obsidian_shovel.json
 d90868d7b32a18cc13864f2875c5afccd9ea7127 data/emmys/recipe/obsidian_sword.json

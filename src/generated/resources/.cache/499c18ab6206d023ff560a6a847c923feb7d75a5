@@ -1,6 +1,7 @@
-// 1.21.1	2025-03-22T12:47:55.5519126	Tags for minecraft:item mod id emmys
+// 1.21.1	2025-03-23T16:09:34.1195698	Tags for minecraft:item mod id emmys
 0d4be3e790a8709394dfcfae2a4505a6d1b231fb data/minecraft/tags/item/axes.json
 9c5ca60634099371d2bc993bb0e0989bcbe6eb51 data/minecraft/tags/item/hoes.json
 fe74dc5f75aeb3026ae80c941b3ce4cd57bcab8a data/minecraft/tags/item/pickaxes.json
 9561519143cbdddbfc13aace403465425f4080b8 data/minecraft/tags/item/shovels.json
 7dfb85f965badca81d75675ca87465f98370a8a5 data/minecraft/tags/item/swords.json
+fb96d5b3cd3b7402c0e29a995614f4bde7ffd45d data/minecraft/tags/item/trimmable_armor.json
