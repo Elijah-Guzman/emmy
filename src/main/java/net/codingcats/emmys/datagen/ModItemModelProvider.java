@@ -51,14 +51,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.OBSIDIAN_SHOVEL.get());
         handheldItem(ModItems.OBSIDIAN_SWORD.get());
 
-//        trimmedArmorItem(ModItems.EMERALD_HELMET);
-//        trimmedArmorItem(ModItems.EMERALD_CHESTPLATE);
-//        trimmedArmorItem(ModItems.EMERALD_LEGGINGS);
-//        trimmedArmorItem(ModItems.EMERALD_BOOTS);
-//        trimmedArmorItem(ModItems.OBSIDIAN_HELMET);
-//        trimmedArmorItem(ModItems.OBSIDIAN_CHESTPLATE);
-//        trimmedArmorItem(ModItems.OBSIDIAN_LEGGINGS);
-//        trimmedArmorItem(ModItems.OBSIDIAN_BOOTS);
+        trimmedArmorItem(ModItems.EMERALD_HELMET);
+        trimmedArmorItem(ModItems.EMERALD_CHESTPLATE);
+        trimmedArmorItem(ModItems.EMERALD_LEGGINGS);
+        trimmedArmorItem(ModItems.EMERALD_BOOTS);
+        trimmedArmorItem(ModItems.OBSIDIAN_HELMET);
+        trimmedArmorItem(ModItems.OBSIDIAN_CHESTPLATE);
+        trimmedArmorItem(ModItems.OBSIDIAN_LEGGINGS);
+        trimmedArmorItem(ModItems.OBSIDIAN_BOOTS);
     }
     private void trimmedArmorItem(DeferredItem<ArmorItem> itemDeferredItem) {
         final String MOD_ID = Emmys.MOD_ID; // Change this to your mod id

@@ -114,56 +114,56 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_crying_obsidian", has(Items.CRYING_OBSIDIAN)).save(recipeOutput);
         //Armor
         //Helmets
-//        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_HELMET)
-//                .pattern("EEE")
-//                .pattern("E E")
-//                .define('E', ModItems.CURSED_EMERALD.get())
-//                .unlockedBy("has_cursed_emerald", has(ModItems.CURSED_EMERALD)).save(recipeOutput);
-//        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.OBSIDIAN_HELMET)
-//                .pattern("OCO")
-//                .pattern("O O")
-//                .define('O', Items.OBSIDIAN)
-//                .define('C', Items.CRYING_OBSIDIAN)
-//                .unlockedBy("has_crying_obsidian", has(Items.CRYING_OBSIDIAN)).save(recipeOutput);
-//        //Chestplates
-//        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_CHESTPLATE)
-//                .pattern("E E")
-//                .pattern("EEE")
-//                .pattern("EEE")
-//                .define('E', ModItems.CURSED_EMERALD.get())
-//                .unlockedBy("has_cursed_emerald", has(ModItems.CURSED_EMERALD)).save(recipeOutput);
-//        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.OBSIDIAN_CHESTPLATE)
-//                .pattern("O O")
-//                .pattern("CCC")
-//                .pattern("OOO")
-//                .define('O', Items.OBSIDIAN)
-//                .define('C', Items.CRYING_OBSIDIAN)
-//                .unlockedBy("has_crying_obsidian", has(Items.CRYING_OBSIDIAN)).save(recipeOutput);
-//        //Leggings
-//        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_LEGGINGS)
-//                .pattern("EEE")
-//                .pattern("E E")
-//                .pattern("E E")
-//                .define('E', ModItems.CURSED_EMERALD.get())
-//                .unlockedBy("has_cursed_emerald", has(ModItems.CURSED_EMERALD)).save(recipeOutput);
-//        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.OBSIDIAN_LEGGINGS)
-//                .pattern("CCC")
-//                .pattern("O O")
-//                .pattern("O O")
-//                .define('O', Items.OBSIDIAN)
-//                .define('C', Items.CRYING_OBSIDIAN)
-//                .unlockedBy("has_crying_obsidian", has(Items.CRYING_OBSIDIAN)).save(recipeOutput);
-//        //Boots
-//        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_BOOTS)
-//                .pattern("E E")
-//                .pattern("E E")
-//                .define('E', ModItems.CURSED_EMERALD.get())
-//                .unlockedBy("has_cursed_emerald", has(ModItems.CURSED_EMERALD)).save(recipeOutput);
-//        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.OBSIDIAN_BOOTS)
-//                .pattern("O O")
-//                .pattern("C C")
-//                .define('O', Items.OBSIDIAN)
-//                .define('C', Items.CRYING_OBSIDIAN)
-//                .unlockedBy("has_crying_obsidian", has(Items.CRYING_OBSIDIAN)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_HELMET)
+                .pattern("EEE")
+                .pattern("E E")
+                .define('E', ModItems.CURSED_EMERALD.get())
+                .unlockedBy("has_cursed_emerald", has(ModItems.CURSED_EMERALD)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.OBSIDIAN_HELMET)
+                .pattern("OCO")
+                .pattern("O O")
+                .define('O', Items.OBSIDIAN)
+                .define('C', Items.CRYING_OBSIDIAN)
+                .unlockedBy("has_crying_obsidian", has(Items.CRYING_OBSIDIAN)).save(recipeOutput);
+        //Chestplates
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_CHESTPLATE)
+                .pattern("E E")
+                .pattern("EEE")
+                .pattern("EEE")
+                .define('E', ModItems.CURSED_EMERALD.get())
+                .unlockedBy("has_cursed_emerald", has(ModItems.CURSED_EMERALD)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.OBSIDIAN_CHESTPLATE)
+                .pattern("O O")
+                .pattern("CCC")
+                .pattern("OOO")
+                .define('O', Items.OBSIDIAN)
+                .define('C', Items.CRYING_OBSIDIAN)
+                .unlockedBy("has_crying_obsidian", has(Items.CRYING_OBSIDIAN)).save(recipeOutput);
+        //Leggings
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_LEGGINGS)
+                .pattern("EEE")
+                .pattern("E E")
+                .pattern("E E")
+                .define('E', ModItems.CURSED_EMERALD.get())
+                .unlockedBy("has_cursed_emerald", has(ModItems.CURSED_EMERALD)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.OBSIDIAN_LEGGINGS)
+                .pattern("CCC")
+                .pattern("O O")
+                .pattern("O O")
+                .define('O', Items.OBSIDIAN)
+                .define('C', Items.CRYING_OBSIDIAN)
+                .unlockedBy("has_crying_obsidian", has(Items.CRYING_OBSIDIAN)).save(recipeOutput);
+        //Boots
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.EMERALD_BOOTS)
+                .pattern("E E")
+                .pattern("E E")
+                .define('E', ModItems.CURSED_EMERALD.get())
+                .unlockedBy("has_cursed_emerald", has(ModItems.CURSED_EMERALD)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.OBSIDIAN_BOOTS)
+                .pattern("O O")
+                .pattern("C C")
+                .define('O', Items.OBSIDIAN)
+                .define('C', Items.CRYING_OBSIDIAN)
+                .unlockedBy("has_crying_obsidian", has(Items.CRYING_OBSIDIAN)).save(recipeOutput);
     }
 }
